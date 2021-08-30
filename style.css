@@ -38,21 +38,24 @@ button {
 
 .main__section {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 100%;
-  overflow: scroll;
   border: 1px solid var(--orange-color);
   border-radius: 25px;
 }
 
-.main__button {
-  position: absolute;
-  bottom: 1rem;
+.main__body {
+  overflow: scroll;
+}
+.main__input {
   width: 100%;
   text-align: center;
 }
 
 .button__add {
-  margin: 1rem;
+  margin: 0.5rem;
   min-height: 2rem;
   min-width: 2rem;
   color: var(--orange-color);
