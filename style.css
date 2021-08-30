@@ -9,15 +9,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
 
 body {
-  background-color: var(--background-color);
-  display: grid;
-  grid-template-rows: 2fr 12fr 1fr;
-  font-family: 'Nova Mono', monospace;
+  height: 100vh;
   margin: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: var(--background-color);
+  font-family: 'Nova Mono', monospace;
 }
 
 header {
-  margin: 5px;
+  height: 20%;
   position: sticky;
   top: 0px;
   border-radius: 5px;
@@ -26,7 +28,7 @@ header {
 }
 
 main {
-  overflow: scroll;
+  height: 55%;
   align-items: center;
 }
 
@@ -35,12 +37,17 @@ button {
 }
 
 .main__section {
-  margin: 10px;
+  position: relative;
+  height: 100%;
+  overflow: scroll;
   border: 1px solid var(--orange-color);
   border-radius: 25px;
 }
 
-.main__bottom {
+.main__button {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
   text-align: center;
 }
 
@@ -54,6 +61,7 @@ button {
 }
 
 footer {
+  height: 10%;
   position: sticky;
   bottom: 5px;
   border-radius: 5px;
