@@ -8,6 +8,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
 
+h1,
+h2 {
+  margin: 0.5rem;
+}
 body {
   height: 100vh;
   margin: 0 0.5rem;
@@ -19,6 +23,9 @@ body {
 }
 
 header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   height: 20%;
   position: sticky;
   top: 0px;
