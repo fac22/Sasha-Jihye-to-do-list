@@ -12,6 +12,14 @@ h1,
 h2 {
   margin: 0.5rem;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 body {
   height: 100vh;
   margin: 0 0.5rem;
@@ -56,6 +64,12 @@ button {
 .main__body {
   overflow: scroll;
 }
+
+.list__body--item {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+}
+
 .main__input {
   width: 100%;
   text-align: center;
