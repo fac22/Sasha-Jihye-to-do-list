@@ -3,6 +3,7 @@
   --point-background-color: #739e82;
   --line-color: #f3ffb6;
   --orange-color: #d38b5d;
+  --red-color: rgb(250, 91, 91);
   --dark-color: rgb(31, 48, 22);
 }
 
@@ -68,6 +69,16 @@ button {
 .list__body--item {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
+}
+
+.item__bin {
+  color: var(--red-color);
+}
+
+.item__bin:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in 300ms;
 }
 
 .main__input {
