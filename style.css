@@ -7,7 +7,7 @@
   --dark-color: rgb(31, 48, 22);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap");
 
 h1,
 h2 {
@@ -28,7 +28,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   background-color: var(--background-color);
-  font-family: 'Nova Mono', monospace;
+  font-family: "Nova Mono", monospace;
 }
 
 header {
@@ -69,6 +69,10 @@ button {
 .list__body--item {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
+}
+
+.finished {
+  text-decoration: line-through;
 }
 
 .item__bin {
