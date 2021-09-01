@@ -22,17 +22,18 @@
     <main>
       <section class="main__section">
         <div class="main__body">
-          ...
-          <template id="list__template">
-            <li class="list__body--item">
-              <p class="item__checklist"></p>
-              <p class="item__name"></p>
-              <p class="item__bin"></p>
-            </li>
-          </template>
+          <ul></ul>
         </div>
+        <template id="list__template">
+          <li class="list__body--item">
+            <p class="item__checklist"></p>
+            <p class="item__name"></p>
+            <p class="item__bin"></p>
+          </li>
+        </template>
+
         <div class="main__input">
-          <input type="text" />
+          <input type="text" id="task__input" />
           <button class="button__add"><i class="fas fa-plus"></i></button>
         </div>
       </section>
